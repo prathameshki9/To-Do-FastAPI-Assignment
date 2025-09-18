@@ -1,4 +1,4 @@
-# NestJS Practice Assignment
+# FastAPI Practice Assignment
 
 Develop TODO / TASK application with the Following Features:
 
