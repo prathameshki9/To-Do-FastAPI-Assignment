@@ -12,7 +12,7 @@ if URL is None:
 
 engine = create_engine(URL)
 
-session = sessionmaker(bind=engine)
+session = sessionmaker(bind=engine, autoflush=False, autocommit=False)
 
 def create_session():
     db = session()
